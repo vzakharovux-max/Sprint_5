@@ -1,7 +1,7 @@
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-from data import generate_registration_data
+from helpers import generate_registration_data
 from locators import LoginPageLocators, RegisterPageLocators
 from urls import Urls
 
